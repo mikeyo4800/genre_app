@@ -18,6 +18,7 @@ import nltk
 nltk.download('stopwords')
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
+nltk.download('wordnet')
 
 class TextPreprocessor(BaseEstimator, TransformerMixin): #for pipeline and column transformation (not used in this project)
     
