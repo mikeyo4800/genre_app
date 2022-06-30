@@ -16,6 +16,7 @@ from nltk.stem.snowball import SnowballStemmer
 
 import nltk
 nltk.download('stopwords')
+nltk.download('punkt')
 
 
 class TextPreprocessor(BaseEstimator, TransformerMixin): #for pipeline and column transformation (not used in this project)
