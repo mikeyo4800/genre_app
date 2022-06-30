@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 
 st.title("Screenplay Genre Classifier")
 st.subheader("In this application, we use a classifier chain with a base estimator to classifiy the genre of our screenplay.")
+st.write("For source code/github repo: [GitHub](https://github.com/mikeyo4800/Screenplay_Genre_Classifier)")
 
 uploaded_file = st.file_uploader("Upload a file (txt file only for now)")
 
