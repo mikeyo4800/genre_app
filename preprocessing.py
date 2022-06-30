@@ -14,7 +14,8 @@ from nltk import WordNetLemmatizer
 from nltk.stem import PorterStemmer, LancasterStemmer
 from nltk.stem.snowball import SnowballStemmer
 
-
+import nltk
+nltk.download('stopwords')
 
 
 class TextPreprocessor(BaseEstimator, TransformerMixin): #for pipeline and column transformation (not used in this project)
